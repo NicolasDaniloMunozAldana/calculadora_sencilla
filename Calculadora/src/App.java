@@ -29,6 +29,9 @@ public class App {
                 case 1:
                     System.out.println("Resultado: " + calculator.add(a, b));
                     break;
+                case 3:
+                    System.out.println("Resultado: " + calculator.multiply(a, b));
+                    break;
                 default:
                     System.out.println("Opción no válida, intente de nuevo.");
                     break;
